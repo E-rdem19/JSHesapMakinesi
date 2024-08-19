@@ -1,0 +1,66 @@
+body{
+    background-image: url(bws-maths-tutoring.jpg);
+}
+.hesapMakinesi{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    background-color: dimgrey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -150px;
+    border-radius: 10px;
+    border-width: 3px;
+}
+.Ekran{
+    height: 100px;
+}
+
+.text2{
+   position: relative;
+   width: 199px;
+   height: 90px;
+   border-radius: 10px;
+   border-width: 3px;
+   border-color: rgb(0, 0, 0);
+   font-size: 30px;
+   text-align: center;
+   background-color: black;
+   color: white;
+   box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+   
+}
+.numara{
+    
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 3fr);
+    font-size: 200px;
+    font-style: italic;
+    
+
+}
+.button{
+    position: relative;
+    width: 44px;
+    height: 35px;
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+   border-width: 3px;
+}
+.numara1{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 3fr);
+    font-size: 200px;
+    font-style: italic;
+    position: relative;
+    top: 10px;
+
+}
+
